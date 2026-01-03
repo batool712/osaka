@@ -1,0 +1,23 @@
+.mine-navbar {
+    background-color: #147831; 
+    width: 100%;
+    justify-content:right
+    
+  }
+
+
+  .mine-navbar .nav-link {
+    color: white;
+  }
+
+  .mine-navbar .nav-link:hover {
+    color: #f8cf38; 
+  }
+  .container-fluid
+
+  {gap: 250px;;
+   width: 80%;
+
+  }
+
+ 
