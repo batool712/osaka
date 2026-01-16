@@ -1,23 +1,35 @@
-.mine-navbar {
-    background-color: #147831; 
-    width: 100%;
-    justify-content:right
-    
-  }
 
+:root
+{
+  --primarycolour:#fe206e;
+  --mainfont:"open sans" , sans-serif;
+}
 
-  .mine-navbar .nav-link {
-    color: white;
-  }
+body
+{
+  font-family: var(--mainfont);
+}
+.text__primary
+{
+  color: var(--primarycolour);
+}
+ .navbar .nav-link
+{
+  color: #fff;
+}
 
-  .mine-navbar .nav-link:hover {
-    color: #f8cf38; 
-  }
-  .container-fluid
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+{
+  color:var(--primarycolour);
 
-  {gap: 250px;;
-   width: 80%;
-
-  }
-
- 
+}
+.hero
+{
+  height: calc(100vh - 56px);
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+}
+.about
+{
+  background-image: url(images/light_dot.jpg);
+}
